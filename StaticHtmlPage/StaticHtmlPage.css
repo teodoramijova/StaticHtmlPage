@@ -1,0 +1,1024 @@
+    html {
+        font-size: 100%;
+    }
+
+    #nav-logo {
+        width: 50px;
+    }
+
+    .button1 {
+        background-color: #0d8063;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .button1:hover {
+        background-color: #3e8e7a
+    }
+
+    .button2 button {
+        background-color: #0d8063;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        margin: 0;
+        margin-top: 60px;
+        position: relative;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .button2:hover button {
+        background-color: #3e8e7a
+    }
+
+    #p1 {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #p2 {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #checkboxInput1 {
+        width: 180px;
+        height: 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        background: rgb(238, 236, 236);
+        padding-top: 5px;
+        padding-left: 3px;
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    #checkboxInput2 {
+        width: 110px;
+        height: 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        background: rgb(238, 236, 236);
+        padding-top: 5px;
+        padding-left: 3px;
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    #checkboxInput3 {
+        width: 140px;
+        height: 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        background: rgb(238, 236, 236);
+        padding-top: 5px;
+        padding-left: 3px;
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    #checkboxInput4 {
+        width: 170px;
+        height: 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        background: rgb(238, 236, 236);
+        padding-top: 5px;
+        padding-left: 3px;
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    #checkboxInput5 {
+        width: 190px;
+        height: 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        background: rgb(238, 236, 236);
+        padding-top: 5px;
+        padding-left: 3px;
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    #checkboxInput6 {
+        width: 160px;
+        height: 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        background: rgb(238, 236, 236);
+        padding-top: 5px;
+        padding-left: 3px;
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    #checkboxInput7 {
+        width: 130px;
+        height: 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        background: rgb(238, 236, 236);
+        padding-top: 5px;
+        padding-left: 3px;
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    #checkboxInput8 {
+        width: 170px;
+        height: 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        background: rgb(238, 236, 236);
+        padding-top: 5px;
+        padding-left: 3px;
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    #checkboxInput9 {
+        width: 70px;
+        height: 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        background: rgb(238, 236, 236);
+        padding-top: 5px;
+        padding-left: 3px;
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    #checkboxInput10 {
+        width: 140px;
+        height: 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        background: rgb(238, 236, 236);
+        padding-top: 5px;
+        padding-left: 3px;
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    .checkboxOne {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .checkboxTwo {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #hero {
+        width: 100%;
+        height: 100%;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 62.5%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .header {
+        border-bottom: 1px solid #E2E8F0;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-left: 5rem;
+    }
+
+    .nav-link {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #475569;
+    }
+
+    .nav-link:hover {
+        color: #482ff7;
+    }
+
+    .nav-logo {
+        font-size: 2.1rem;
+        font-weight: 500;
+        color: #482ff7;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .nav-menu {
+            position: fixed;
+            left: -100%;
+            top: 5rem;
+            flex-direction: column;
+            background-color: #fff;
+            width: 100%;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        }
+
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .nav-item {
+            margin: 2.5rem 0;
+        }
+
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .bcg {
+        background-color: #F4EDE4;
+        /* width: 100%; */
+        /* margin-left: 150px; */
+        height: 100%;
+        float: left;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .bcg1 {
+        background-color: #F4EDE4;
+        /* width: 100%; */
+        /* margin-left: 150px; */
+        height: 100%;
+        float: left;
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .bcg2 {
+        background-color: #F4EDE4;
+        /* width: 100%; */
+        /* margin-left: 150px; */
+        height: 100%;
+        float: left;
+        width: 100%;
+        margin-top: -20px;
+    }
+
+
+    .bcg3 {
+        /* width: 100%; */
+        /* margin-left: 150px; */
+        height: 100%;
+        float: left;
+        width: 100%;
+        margin-top: 50px;
+
+    }
+
+    @media screen and (max-width:800px) {
+
+        .bcg {
+            width: 100%;
+            /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
+
+    @media screen and (max-width:800px) {
+
+        .bcg1 {
+            width: 100%;
+            /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
+
+    @media screen and (max-width:800px) {
+
+        .bcg2 {
+            width: 100%;
+            /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
+
+    @media screen and (max-width:800px) {
+
+        .bcg3 {
+            width: 100%;
+            /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
+
+    .photo {
+        max-width: 30%;
+        height: auto;
+        width: 40%;
+        float: right;
+        margin-right: 70px;
+        margin-top: -30px;
+    }
+
+    .photo1 {
+        max-width: 30%;
+        height: auto;
+        width: 40%;
+        float: right;
+        margin-right: 200px;
+        margin-top: 100px;
+
+    }
+
+    @media (min-device-width:600px) {
+        .photo[data-src-600px] {
+            content: attr(data-src-600px, url);
+        }
+    }
+
+    @media (min-device-width:800px) {
+        .photo[data-src-800px] {
+            content: attr(data-src-800px, url);
+        }
+    }
+
+    .main {
+        background-color: #F4EDE4;
+        height: 100%;
+        float: left;
+        width: 100%;
+    }
+
+    @media screen and (max-width:800px) {
+
+        .bcg {
+            width: 100%;
+            /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
+
+    .parag1 {
+        margin-left: 100px;
+        font-size: 25px;
+        /* z-index: -1; */
+        margin-top: 80px;
+        font-weight: bold;
+
+    }
+
+    .parag2 {
+        padding-top: 2%;
+        margin-left: 100px;
+        font-size: 17px;
+        width: 550px;
+    }
+
+    .parag3 {
+        font-size: 25px;
+        z-index: -1;
+        margin-top: 200px;
+        font-weight: bold;
+    }
+
+    .test {
+        margin-right: 220px;
+        margin-top: -40px;
+    }
+
+    .test1 {
+        margin-top: 190px;
+    }
+
+    #test10 {
+        margin-left: 150px;
+        position: absolute;
+    }
+
+    #test11 {
+        margin-left: 520px;
+    }
+
+    #test12 {
+        position: absolute;
+        margin-left: 20px;
+    }
+
+    .parag4 {
+        padding-top: 4%;
+        font-size: 16px;
+    }
+
+    .second {
+        float: right;
+    }
+
+    .arrow {
+        border: solid rgb(255, 255, 255);
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .square1 {
+        height: 200px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 80px;
+        display: inline-block;
+    }
+
+    .square11 {
+        height: 200px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        display: inline-block;
+        margin-left: 80px;
+    }
+
+    .square111 {
+        height: 200px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        display: inline-block;
+        margin-left: 80px;
+    }
+
+    .square2 {
+        height: 200px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 20px;
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .square22 {
+        height: 200px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 20px;
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .square222 {
+        height: 200px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 20px;
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .square3 {
+        height: 90px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .square33 {
+        height: 90px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .square333 {
+        height: 90px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .square4 {
+        height: 90px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .square44 {
+        height: 90px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .square5 {
+        height: 200px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        display: inline-block;
+    }
+
+    .square6 {
+        height: 200px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 20px;
+        display: inline-block;
+    }
+
+    .square7 {
+        height: 90px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .square8 {
+        height: 90px;
+        width: 250px;
+        background-color: rgb(255, 253, 253);
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .main1 {
+        display: inline-block;
+    }
+
+    .main11 {
+        display: inline-block;
+        margin-left: 250px;
+        margin-top: -200px;
+    }
+
+    .main111 {
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: -180px;
+        margin-bottom: 40px;
+    }
+
+    .main2 {
+        float: right;
+    }
+
+    .main22 {
+        float: right;
+    }
+
+    .main222 {
+        float: right;
+    }
+
+    .main3 {
+        float: right;
+        margin-right: 200px;
+    }
+
+    .main4 {
+        float: right;
+    }
+
+    .p3 {
+        font-size: 15px;
+        margin-left: 10px;
+        font-weight: bolder;
+    }
+
+    .p4 {
+        font-size: 14px;
+        margin-left: 10px;
+        padding-top: 2%;
+        font-weight: 400;
+
+    }
+
+    .p5 {
+        font-size: 15px;
+        margin-left: 10px;
+        font-weight: bolder;
+        float: left;
+    }
+
+    .p6 {
+        font-size: 15px;
+        margin-left: 10px;
+        font-weight: bolder;
+        float: left;
+    }
+
+    .p7 {
+        font-size: 15px;
+        margin-left: 10px;
+        font-weight: bolder;
+    }
+
+    .p8 {
+        font-size: 14px;
+        margin-left: 10px;
+        padding-top: 2%;
+        font-weight: 400;
+    }
+
+    .p9 {
+        font-size: 15px;
+        margin-left: 10px;
+        font-weight: bolder;
+        float: left;
+    }
+
+    .p10 {
+        font-size: 15px;
+        margin-left: 10px;
+        font-weight: bolder;
+        float: left;
+    }
+
+    .img {
+        width: 60px;
+        height: 50px;
+
+    }
+
+    .img10 {
+        width: 60px;
+        height: 50px;
+
+    }
+
+    .img100 {
+        width: 60px;
+        height: 50px;
+
+    }
+
+    #img1 {
+        float: right;
+        padding-top: 20px;
+    }
+
+    #img11 {
+        float: right;
+        margin-top: 10px;
+    }
+
+    #img111 {
+        float: right;
+        margin-top: 20px;
+    }
+
+    #img2 {
+        float: right;
+        margin-top: -20px;
+    }
+
+    #img22 {
+        float: right;
+        margin-top: -20px;
+    }
+
+    #img222 {
+        float: right;
+        margin-top: -20px;
+    }
+
+    #img3 {
+        float: right;
+        margin-top: -20px;
+    }
+
+    #img33 {
+        float: right;
+        margin-top: -30px;
+    }
+
+    #img333 {
+        float: right;
+        margin-top: -20px;
+    }
+
+    .img4 {
+        width: 400px;
+        height: 300px;
+        z-index: -1;
+        margin-top: 100px;
+        margin-left: 70px;
+    }
+
+    .plan {
+        margin-top: 50px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .columns {
+        width: 350px;
+        padding: 8px;
+        display: inline-block;
+        padding-top: 50px;
+    }
+
+    .price {
+        list-style-type: none;
+        border: 2px solid rgb(12, 12, 12);
+        border-radius: 10px;
+        margin: 0;
+        padding: 0;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        margin-left: 0px;
+    }
+
+    .price:hover {
+        box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+    }
+
+    .header1 {
+        color: rgb(117, 114, 114);
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .header2 {
+        color: rgb(212, 42, 42);
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .header3 {
+        color: rgb(10, 10, 10);
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .price li {
+        padding: 20px;
+    }
+
+
+    .button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .button3 {
+        border: 2px solid grey;
+        border-radius: 5px;
+        background-color: rgb(255, 248, 248);
+        color: grey;
+        padding: 10px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 250px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+
+    }
+
+    .button4 {
+        border-radius: 5px;
+        background-color: #22A62A;
+        color: rgb(255, 255, 255);
+        padding: 10px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 250px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+
+    .button5 {
+        border-radius: 5px;
+        background-color: rgb(2, 2, 2);
+        color: rgb(255, 255, 255);
+        padding: 10px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        width: 250px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .columns {
+            width: 100%;
+        }
+    }
+
+    #basic {
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    #premium {
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    #business {
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+
+    .grey {
+        color: rgb(167, 159, 159);
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .grey1 {
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .green {
+        color: green;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+
+    .green1 {
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .black {
+        color: black;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+
+    .black1 {
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .all {
+        margin-left: 25px;
+        font-weight: bolder;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    #free {
+        margin-left: 25px;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    #four {
+        margin-left: 25px;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    #ten {
+        margin-left: 25px;
+        font-weight: normal;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    #month {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    #Usermonth {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    #colorGrey {
+        border: 2px solid grey;
+        margin-bottom: 100px;
+    }
+
+    #colorRed {
+        border: 2px solid rgb(206, 24, 24);
+        height: 700px;
+    }
+
+    #colorBlack {
+        border: 2px solid black;
+        display: inline-block;
+    }
+
+    @media screen and (min-width: 601px) {
+        h1.plan {
+            font-size: 80px;
+        }
+    }
